@@ -1,0 +1,17 @@
+# Optional Apache rules for Cloudways (static Astro)
+#
+# Copy this file to public_html/.htaccess after deploying the contents of dist/.
+# Useful if you later add client-side routing that needs a SPA-style fallback.
+#
+# For a default Astro static build, this file is optional.
+
+RewriteEngine On
+RewriteBase /
+
+# Serve existing files and directories as-is
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Fallback to index.html for unknown routes
+RewriteRule ^ index.html [L]

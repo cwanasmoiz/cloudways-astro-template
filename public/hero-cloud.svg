@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" fill="none" aria-hidden="true">
+  <defs>
+    <linearGradient id="glow" x1="120" y1="80" x2="820" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07EBAD" stop-opacity="0.55"/>
+      <stop offset="0.45" stop-color="#2C39BD" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#B763D7" stop-opacity="0.45"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="280" y1="160" x2="720" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.04"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="520" cy="330" rx="340" ry="220" fill="url(#glow)" opacity="0.55"/>
+  <path d="M210 390c0-92 74-166 166-166h28c18-58 72-100 136-100 78 0 142 64 142 142 0 8-1 16-2 24 62 12 108 66 108 130 0 74-60 134-134 134H344c-74 0-134-60-134-134z" stroke="#07EBAD" stroke-opacity="0.55" stroke-width="3" fill="url(#panel)"/>
+  <path d="M268 430h424M268 470h320M268 510h268" stroke="#FDB054" stroke-opacity="0.55" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="690" cy="220" r="54" fill="#2C39BD" fill-opacity="0.45" stroke="#07EBAD" stroke-opacity="0.7" stroke-width="3"/>
+  <circle cx="690" cy="220" r="22" fill="#07EBAD" fill-opacity="0.85"/>
+  <path d="M150 180c40-48 98-72 168-64M820 140c-36-28-84-40-134-34" stroke="#B763D7" stroke-opacity="0.55" stroke-width="4" stroke-linecap="round"/>
+</svg>

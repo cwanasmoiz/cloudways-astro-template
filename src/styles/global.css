@@ -1,0 +1,55 @@
+:root {
+  --cw-navy: #070928;
+  --cw-navy-mid: #121a4a;
+  --cw-blue: #2c39bd;
+  --cw-blue-bright: #2f39bf;
+  --cw-teal: #07ebad;
+  --cw-orange: #fdb054;
+  --cw-purple: #b763d7;
+  --cw-white: #ffffff;
+  --cw-mist: #eef1f8;
+  --cw-slate: #5a6178;
+  --font-display: "Outfit", "Avenir Next", "Segoe UI", sans-serif;
+  --font-body: "Figtree", "Avenir Next", "Segoe UI", sans-serif;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font-body);
+  color: var(--cw-navy);
+  background: var(--cw-mist);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

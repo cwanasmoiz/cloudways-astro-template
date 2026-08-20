@@ -1,0 +1,26 @@
+{
+  "name": "cloudways-astro-template",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Astro starter template for Cloudways and other static hosts",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "keywords": [
+    "astro",
+    "cloudways",
+    "template",
+    "starter",
+    "static"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "astro": "^7.2.4"
+  }
+}
